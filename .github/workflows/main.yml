@@ -32,7 +32,15 @@ jobs:
           output_action: none
 
       - name: Move metrics to dist
-        run: mv /metrics_renders/github-metrics.svg dist/github-metrics.svg
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          echo "Listing /metrics_renders:"
+          ls -la /metrics_renders || true
+          test -f /metrics_renders/github-metrics.svg
+          cp /metrics_renders/github-metrics.svg dist/github-metrics.svg
+          echo "Listing dist:"
+          ls -la dist
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
