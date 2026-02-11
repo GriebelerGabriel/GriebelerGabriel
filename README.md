@@ -7,7 +7,7 @@
 
 ## 🧠 `About Me`
 
-I’m a software engineer focused on building practical AI-powered solutions, automating workflows, and shipping reliable systems.
+I’m a software/AI engineer focused on building practical AI-powered solutions, automating workflows, and shipping reliable systems.
 
 ## ⚡ `What I Like`
 
@@ -27,6 +27,8 @@ I’m a software engineer focused on building practical AI-powered solutions, au
 ## 🐍 `Contributions`
 
 ![Snake animation](https://raw.githubusercontent.com/GriebelerGabriel/GriebelerGabriel/output/github-contribution-grid-snake.svg)
+
+_Note: generated from GitHub’s contribution graph; private contributions may not be included._
 
 ## 📊 `GitHub Status`
 
