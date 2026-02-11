@@ -1,6 +1,8 @@
 <div align="center">
 
-![Status](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=9EFEFF&background=00000000&center=true&vCenter=true&width=760&lines=Hi%2C+%F0%9F%91%8B;I%27m+Gabriel+Griebeler;Software%2FAI+Engineering;Data+Scientist)
+Hi 👋
+
+![Status](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=9EFEFF&background=00000000&center=true&vCenter=true&width=760&lines=I%27m+Gabriel+Griebeler;Software%2FAI+Engineering;Data+Scientist)
 
 
 </div>
@@ -32,7 +34,7 @@ I’m a software engineer focused on building practical AI-powered solutions, au
 
 <div align="center">
 
-![GitHub Metrics](https://github.com/GriebelerGabriel/GriebelerGabriel/blob/main/github-metrics.svg)
+![GitHub Metrics](https://raw.githubusercontent.com/GriebelerGabriel/GriebelerGabriel/output/github-metrics.svg)
 
 </div>
 
