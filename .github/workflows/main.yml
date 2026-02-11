@@ -42,6 +42,8 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p dist
+          sudo chown -R "$(id -u):$(id -g)" dist || true
+          sudo chmod -R u+rwX dist || true
           SRC=""
           if [ -f /metrics_renders/github-metrics.svg ]; then
             SRC=/metrics_renders/github-metrics.svg
@@ -54,7 +56,7 @@ jobs:
             exit 1
           fi
 
-          cp "$SRC" dist/github-metrics.svg
+          sudo cp "$SRC" dist/github-metrics.svg
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
