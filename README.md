@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# `//GABRIEL GRIEBELER`  
+# `// GABRIEL GRIEBELER`  
 ## Artificial Intelligence • Software Engineering • Automation
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GriebelerGabriel&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
