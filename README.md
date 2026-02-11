@@ -11,11 +11,7 @@
 
 <div align="center">
 
-### `:: activity counters ::`
-
-| Open PRs | Closed PRs |
-| --- | --- |
-| ![Open PRs](https://img.shields.io/github/issues-pr/GriebelerGabriel/GriebelerGabriel?style=for-the-badge&label=OPEN%20PRS&color=06b6d4) | ![Closed PRs](https://img.shields.io/github/issues-pr-closed/GriebelerGabriel/GriebelerGabriel?style=for-the-badge&label=CLOSED%20PRS&color=22c55e) |
+### ```Activity Counters```
 
 </div>
 
