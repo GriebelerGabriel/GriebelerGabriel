@@ -22,6 +22,13 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Check METRICS_TOKEN
+        run: |
+          if [ -z "${{ secrets.METRICS_TOKEN }}" ]; then
+            echo "METRICS_TOKEN secret is missing or empty. Create it in repository Settings -> Secrets and variables -> Actions." >&2
+            exit 1
+          fi
+
       - name: Generate GitHub metrics SVG
         uses: lowlighter/metrics@latest
         with:
@@ -35,12 +42,6 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p dist
-          echo "Listing potential metrics output dirs:"
-          echo "- /metrics_renders"
-          ls -la /metrics_renders || true
-          echo "- $GITHUB_WORKSPACE/metrics_renders"
-          ls -la "$GITHUB_WORKSPACE/metrics_renders" || true
-
           SRC=""
           if [ -f /metrics_renders/github-metrics.svg ]; then
             SRC=/metrics_renders/github-metrics.svg
@@ -54,8 +55,6 @@ jobs:
           fi
 
           cp "$SRC" dist/github-metrics.svg
-          echo "Listing dist:"
-          ls -la dist
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
