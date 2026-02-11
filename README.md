@@ -1,23 +1,21 @@
 <div align="center">
 
-Hi 👋
-
-![Status](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=9EFEFF&background=00000000&center=true&vCenter=true&width=760&lines=I%27m+Gabriel+Griebeler;Software%2FAI+Engineering;Data+Scientist)
+![Status](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=9EFEFF&background=00000000&center=true&vCenter=true&width=760&lines=Hi%2C+%F0%9F%91%8B;I%27m+Gabriel+Griebeler;Software%2FAI+Engineering;Data+Scientist)
 
 
 </div>
 
-## 🧠 `about me`
+## 🧠 `About Me`
 
 I’m a software engineer focused on building practical AI-powered solutions, automating workflows, and shipping reliable systems.
 
-## ⚡ `what i like`
+## ⚡ `What I Like`
 
  - 🤖 **AI engineering** (LLMs, prompt/tooling, automation)
  - 🔧 **Backend & APIs** (clean architecture, integrations)
  - ✅ **Quality & delivery** (tests, CI/CD, observability)
 
-## 📫 `contact`
+## 📫 `Contact`
 
 <div align="center">
 
@@ -26,11 +24,11 @@ I’m a software engineer focused on building practical AI-powered solutions, au
 
 </div>
 
-## 🐍 `contributions`
+## 🐍 `Contributions`
 
 ![Snake animation](https://raw.githubusercontent.com/GriebelerGabriel/GriebelerGabriel/output/github-contribution-grid-snake.svg)
 
-## 📊 `github status`
+## 📊 `GitHub Status`
 
 <div align="center">
 
