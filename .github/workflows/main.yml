@@ -35,10 +35,25 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p dist
-          echo "Listing /metrics_renders:"
+          echo "Listing potential metrics output dirs:"
+          echo "- /metrics_renders"
           ls -la /metrics_renders || true
-          test -f /metrics_renders/github-metrics.svg
-          cp /metrics_renders/github-metrics.svg dist/github-metrics.svg
+          echo "- $GITHUB_WORKSPACE/metrics_renders"
+          ls -la "$GITHUB_WORKSPACE/metrics_renders" || true
+
+          SRC=""
+          if [ -f /metrics_renders/github-metrics.svg ]; then
+            SRC=/metrics_renders/github-metrics.svg
+          elif [ -f "$GITHUB_WORKSPACE/metrics_renders/github-metrics.svg" ]; then
+            SRC="$GITHUB_WORKSPACE/metrics_renders/github-metrics.svg"
+          fi
+
+          if [ -z "$SRC" ]; then
+            echo "github-metrics.svg was not found in expected locations" >&2
+            exit 1
+          fi
+
+          cp "$SRC" dist/github-metrics.svg
           echo "Listing dist:"
           ls -la dist
 
