@@ -2,11 +2,8 @@
 
 <div align="center">
 
-# `// GABRIEL GRIEBELER`  
-## Artificial Intelligence • Software Engineering • Automation
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GriebelerGabriel&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=GriebelerGabriel&layout=compact&theme=tokyonight&hide_border=true)
+# `Gabriel Auth Maldaner Griebeler`  
+## Artificial Intelligence • Software/AI Engineering • Automation
 
 </div>
 
