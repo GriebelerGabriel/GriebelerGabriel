@@ -35,6 +35,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: ${{ github.repository_owner }}
           template: classic
+          config_display: large
           filename: github-metrics.svg
           output_action: none
 
